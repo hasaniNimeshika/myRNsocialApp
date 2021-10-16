@@ -131,6 +131,8 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+   
+
     defaultConfig {
         applicationId "com.mysocialapp"
         minSdkVersion rootProject.ext.minSdkVersion

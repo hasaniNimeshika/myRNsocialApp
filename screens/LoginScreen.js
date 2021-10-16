@@ -22,10 +22,11 @@ const LoginScreen = ({navigation}) => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Image
-        source={require('../assets/rn-social-logo.png')}
+        // source={require('../assets/rn-social-logo.png')}
+        source={require('../assets/screenshots/social-media-axiety.jpg')}
         style={styles.logo}
       />
-      <Text style={styles.text}>RN Social App</Text>
+      <Text style={styles.text}>My Social App</Text>
 
       <FormInput
         labelValue={email}
